@@ -1,0 +1,70 @@
+@font-face{
+	src: url(../fonts/lato/Lato-Medium.ttf);
+    font-family: Lato-Medium;
+}
+
+@font-face{
+	src: url(../fonts/lato/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+/*header start*/
+body{
+	font-family: Lato-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+
+
+
+header{
+	/*border-bottom: 1px solid;*/
+}
+.c_nav{}
+.logo{}
+
+.logo h1{
+    font-family: Lato-Medium;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu{}
+.menu ul li{}
+.menu ul li a {
+    font-family: 'Lato-Regular';
+    color: #8e8e8e !important;
+    padding: 0 15px !important;
+}
+.menu ul li a:hover {
+	color: #333333 !important;
+}
+
+/*search*/
+.dp_a{
+	color: #8e8e8e;
+	border: 0;
+}
+.dp_a::after {
+    display: none;
+}
+
+
+.dp_m{}
+.dp_m[data-bs-popper] {
+    top: 167%;
+    left: -350px;
+    margin-top: 0;
+}
+
+.dp_m {
+    min-width: 400px;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+/*header end*/
